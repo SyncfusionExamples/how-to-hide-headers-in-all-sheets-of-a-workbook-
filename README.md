@@ -1,4 +1,4 @@
-# How to hide headers in all sheets of a workbook in WPF Spreadsheet
+# How to Hide or Remove Headers in WPF Spreadsheet?
 
 This example demonstrates how to hide or remove the headers in all the sheets of a workbook in [WPF Spreadsheet](https://www.syncfusion.com/wpf-controls/spreadsheet) (SfSpreadsheet).
 
@@ -34,4 +34,4 @@ private void Spreadsheet_WorkbookLoaded(object sender, WorkbookLoadedEventArgs a
  }
 ```
 
-![How to hide headers in all sheets of a workbook in WPF Spreadsheet](https://www.syncfusion.com/uploads/user/kb/wpf/wpf-45710/wpf-45710_img1.png)
+![Spreadsheet with Header hidden](SpreadsheetWithoutHeaders.png)
