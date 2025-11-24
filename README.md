@@ -22,6 +22,7 @@ private void Spreadsheet_WorksheetAdded(object sender, WorksheetAddedEventArgs a
     //To hide header cells visibility 
     spreadsheet.SetRowColumnHeadersVisibility(false);
 }
+
 private void Spreadsheet_WorkbookLoaded(object sender, WorkbookLoadedEventArgs args) 
 {    
     //To hide the Header cells visibility 
@@ -36,3 +37,4 @@ private void Spreadsheet_WorkbookLoaded(object sender, WorkbookLoadedEventArgs a
 
 
 ![Spreadsheet with Header hidden](SpreadsheetWithoutHeaders.png)
+
