@@ -16,6 +16,7 @@ To hide or remove the headers in all the sheets of a workbook, the following eve
 spreadsheet.WorkbookLoaded += Spreadsheet_WorkbookLoaded;
 this.spreadsheet.WorksheetAdded += Spreadsheet_WorksheetAdded;
 spreadsheet.Open("..\\..\\Data\\sample excel file.xlsx");
+
 //Event Customization
 private void Spreadsheet_WorksheetAdded(object sender, WorksheetAddedEventArgs args)
 {
@@ -37,4 +38,5 @@ private void Spreadsheet_WorkbookLoaded(object sender, WorkbookLoadedEventArgs a
 
 
 ![Spreadsheet with Header hidden](SpreadsheetWithoutHeaders.png)
+
 
